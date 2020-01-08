@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: #2c2834;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header {
+  font-family: 'roboto';
+}
+.container {
+  background-color:#c2b191;
+  min-height: 300px;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:1%;
+  box-shadow: 5px 10px 18px #525151;
+}
+
+.alert-box{
+  background-color:orangered;
+  color:white;
+  position:absolute;
+  display:none;
+  font-family: 'roboto';
+  font-size: 16px;
+  padding: 4px;
+  border-radius: 3%;
+}
+#hide-ele {
+  -webkit-animation: hide 2s forwards; 
+  animation: hide 2s forwards;
+}
+@keyframes hide {
+  0%   {opacity: 1;}
+  70%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+@-webkit-keyframes hide {
+  0%   {opacity: 1;}
+  70%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+.input {
+  width: 50%;
+}
+
+.icon {
+  margin-right: 10%;
+  font-size:35px;
+}
+
+.dec-box {
+  margin-top: 5%;
+}
+
+.footer{
+  margin-left: 25%;
+  margin-bottom:10%;
+  font-size:15px;
+  font-family: 'Architects Daughter', cursive;
+}
